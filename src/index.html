@@ -23,8 +23,29 @@
   </head>
 
   <body>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <span class="mdl-layout__title">AriaNg2</span>
+        <div class="mdl-layout-spacer"></div>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="#">Nav link 1</a>
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout__title">Menu</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link">Downloading</a>
+        <a class="mdl-navigation__link">Waiting</a>
+        <a class="mdl-navigation__link">Finished/Stopped</a>
+      </nav>
+    </div>
+  </div>
+  <main class="mdl-layout__content">
     <my-app>
       <div class="mdl-spinner mdl-js-spinner is-active"></div>
     </my-app>
+  </main>
   </body>
 </html>
