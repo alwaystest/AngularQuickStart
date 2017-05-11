@@ -1,4 +1,6 @@
-import {Component} from '@angular/core';
+import {Component, Input} from '@angular/core';
+import {Task} from './Task';
+
 /**
  * Created by Mzz on 2017/5/3.
  */
@@ -7,5 +9,5 @@ import {Component} from '@angular/core';
   templateUrl: './taskdetail.component.html'
 })
 export class TaskDetailComponent {
-
+  @Input() tasks: Task[];
 }

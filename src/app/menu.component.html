@@ -1,4 +1,1 @@
-<div *ngFor="let task of tasks">
-  <span>{{task.name}}</span>
-</div>
-<task-detail></task-detail>
+<task-detail [tasks]='tasks'></task-detail>
