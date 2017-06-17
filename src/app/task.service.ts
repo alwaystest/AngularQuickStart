@@ -20,6 +20,14 @@ export class TaskService {
     ]);
   }
 
+  getUrl(): URL {
+    return new URL('jsonrpc', 'http://domain:port');
+  }
+
+  getToken(): String {
+    return 'token';
+  }
+
   getVersion(url: URL, id: string, token: String): Observable<Response> {
     let params = {
       'jsonrpc': '2.0',

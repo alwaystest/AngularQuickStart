@@ -16,7 +16,7 @@ export class VersionComponent {
   }
 
   getVersion() {
-    this.taskService.getVersion(new URL('jsonrpc', 'http://domain:port'), Date.now().toString(), 'token')
+    this.taskService.getVersion(this.taskService.getUrl(), Date.now().toString(), this.taskService.getToken())
       .subscribe(response => {
         console.log(response.text());
         this.version = response.text();
