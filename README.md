@@ -1,3 +1,15 @@
+# ReadMe
+
+This is a practice project, just for fun.
+
+Start from Angular QuickStart project, and for now, i am going to write a WebUI for Aria2.
+
+Thanks for [Yaaw](https://github.com/binux/yaaw) and [AriaNg](https://github.com/mayswind/AriaNg). Cause i am using some convert method from their project.
+
+I am new to JS, and just for fun, so this project is absolutely full of bad code smell and not easy to use.
+
+---
+
 # Angular QuickStart Source
 [![Build Status][travis-badge]][travis-badge-url]
 
